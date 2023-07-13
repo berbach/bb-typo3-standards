@@ -8,7 +8,7 @@
   "keywords": [
       "TYPO3",
       "CMS",
-      "typo3",
+      "Typo3",
       "Extension"
   ],
   "require": {
@@ -40,7 +40,7 @@
       "typo3/cms": {
           "app-dir": ".build",
           "web-dir": ".build/public",
-          "extension-key": "research"
+          "extension-key": "standards"
       }
   }
 }
