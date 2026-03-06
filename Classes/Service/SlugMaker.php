@@ -1,5 +1,6 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 
 namespace Bb\Standards\Service;
 
@@ -61,6 +62,6 @@ class SlugMaker
             ->update($tableName)
             ->where('uid=' . (int)$row['uid'])
             ->set(self::SLUG_FIELDNAME, $slugValue)
-            ->execute();
+            ->executeStatement();
     }
 }
