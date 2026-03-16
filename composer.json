@@ -13,7 +13,7 @@
   ],
   "require": {
       "typo3/cms-core": "^13",
-      "php": ">= 7.4 < 8.4",
+      "php": ">= 7.4 <= 8.4",
       "ext-pdo": "*"
   },
   "autoload": {
