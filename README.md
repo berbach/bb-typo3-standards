@@ -16,9 +16,9 @@ In der Root composer des TYPO3-Projekts das Repository angeben:
 ~~~
 und dann mit 
 ~~~
-composer req bb/standards:v12.x-dev
+composer req bb/standards:v13.x-dev
 ~~~
-installieren. Dies ist für TYPO3 v12.
+installieren. Dies ist für TYPO3 v13.
 
 ## Features
 ### Image Crop
